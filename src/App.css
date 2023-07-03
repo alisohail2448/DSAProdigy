@@ -1,0 +1,76 @@
+.app-heading {
+  font-weight: 700;
+  color: #343a40;
+  font-size: 50px;
+}
+.App {
+  /* position:absolute; */
+  background-color: #d9afd9;
+  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+
+  height: 100vh;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  max-height: 250vh;
+  overflow-y: scroll;
+}
+
+.dark {
+  background-color: #151515;
+  background-image: linear-gradient(to right, #0b111e, #0b111e);
+  color: white;
+}
+
+
+a{
+  text-decoration: none;
+  color: #34acdb;
+}
+
+a:hover{
+  color: #71d4fb;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 234, 255, 0.782);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(2, 138, 150);
+}
+
+.logo {
+  margin: 20px 0px 10px 35px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 480px) {
+  .app-heading {
+    font-size: 30px;
+  }
+  .app-heading2 {
+    font-size: 20px;
+  }
+}
+
+.emojiFix {
+  font-weight: 100 !important;
+}
+
+
