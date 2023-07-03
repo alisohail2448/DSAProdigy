@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Alert from "react-bootstrap/Alert";
 import Badge from "react-bootstrap/Badge";
 import Spinner from "react-bootstrap/Spinner";
@@ -41,7 +41,7 @@ export default function About({ resetData, exportData, importData }) {
 					</div>
 					<div className="container my-5">
 						<h2 className="text-center" style={{fontSize:'22px'}}>
-							<a href="#">DSA Prodigy</a> is your personal web-based progress tracker based on <br></br>
+							<Link to="/">DSA Prodigy</Link> is your personal web-based progress tracker based on <br></br>
 							<i>
 								<a
 									href="https://drive.google.com/file/d/1FMdN_OCfOI0iAeDlqswCiC2DZzD4nPsb/view"
@@ -56,7 +56,7 @@ export default function About({ resetData, exportData, importData }) {
 						</h2>
 						<h4 className="text-center my-5" style={{ fontSize: '20px' }}>
 							Project by{" "}
-							<a href="https://www.linkedin.com/in/yash-champaneri-046064205/" target="_blank" rel="noopener noreferrer">
+							<a href="https://www.linkedin.com/in/alisohail2448/" target="_blank" rel="noopener noreferrer">
 								Sohail Akhtar Ali
 							</a>{" "}
 							<span role="img" aria-label="code-men">

@@ -25,7 +25,8 @@ function Footer({ dark, setDark }) {
         <div className="d-flex bd-highlight main d-flex justify-content-evenly align-items-center" style={{ width: '20%', height: '100%' }}>
           <div className="p-2 bd-highlight d-flex justify-content-center align-items-center">
             <a
-              href="https://github.com/gamaster616/DSA.FAN_DSA_tracker"
+              href="https://github.com/alisohail2448/DSAProdigy"
+              target="_blank"
               style={{ textDecoration: "none" }}
             >
               <h4
